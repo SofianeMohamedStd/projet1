@@ -8,17 +8,18 @@ body,html {
 
 #section3{
 background: var(--primary-color);
-}
 
-#section1{
+}
+#section2{
     padding-top:70px;
-    padding-bottom:665px ;
+    padding-bottom:165px
+}
+#section1{
+    padding-top: 70px;
+    padding-bottom:520px ;
     background: white url('../img/bloc1.png') no-repeat right bottom;  
 }
 
-.colonne1{
-    width:100px;
-    float: left;
-}
+
 
 
