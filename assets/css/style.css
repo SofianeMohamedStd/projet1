@@ -1,0 +1,24 @@
+body,html {
+    position: relative; 
+}
+
+:root {
+    --primary-color: #c22929;
+}
+
+#section3{
+background: var(--primary-color);
+}
+
+#section1{
+    padding-top:70px;
+    padding-bottom:665px ;
+    background: white url('../img/bloc1.png') no-repeat right bottom;  
+}
+
+.colonne1{
+    width:100px;
+    float: left;
+}
+
+
