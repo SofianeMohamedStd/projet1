@@ -1,14 +1,16 @@
 @font-face{
     font-family : "maFonte";
-    src : url('/assets/fonts/Caladea-Bold.ttf') format('ttf');
-   
+    src : url('/assets/fonts/Caladea-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
           
 }
 @font-face{
     
     font-family :"fonte";
-    src : url('/assets/fonts/Roboto-Bold.ttf') format('ttf');
-          
+    src : url('/assets/fonts/Roboto-Black.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 body,html {
     position: relative; 
@@ -37,6 +39,9 @@ span.ingredient {
 }
 #section1 p{
     font-family : "fonte";
+}
+.marg-top {
+  margin-top: 150px;
 }
 #section2{
     padding-top:100px;
@@ -274,7 +279,7 @@ background-size: cover;
     
   }
   .cd-stretchy-nav ul li:nth-of-type(4) a::after {
-    /* change custom icon using image sprites */
+    
     background-position: -32px 0;
   }
   .cd-stretchy-nav ul li:nth-of-type(5) a::after {
